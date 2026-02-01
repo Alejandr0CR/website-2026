@@ -1,3 +1,3 @@
 :HL["/_next/static/chunks/17ae7e5deb66714d.css","style"]
 :HL["https://api.fontshare.com/v2/css?f[]=satoshi@700,500,400&display=swap","style"]
-0:{"buildId":"KUR5ul2_o06GlxI6sXUXl","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"(main)","paramType":null,"paramKey":"(main)","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"vlBXo-rhx_JhaT7CmbXno","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"(main)","paramType":null,"paramKey":"(main)","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
