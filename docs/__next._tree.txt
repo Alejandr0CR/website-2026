@@ -5,4 +5,4 @@
 :HL["/images/linkedin.png","image"]
 :HL["/images/email.png","image"]
 :HL["/images/pdf.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"AnTDgpuQ3wD0Y-t0vczq8"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"7cQDUaR6SqoqRTX3t-BA1"}
