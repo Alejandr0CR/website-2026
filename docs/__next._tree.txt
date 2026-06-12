@@ -1,8 +1,8 @@
-:HL["/_next/static/chunks/0kns7n61unql9.css","style"]
+:HL["/_next/static/chunks/11wi~_8h93srn.css","style"]
 :HL["/_next/static/chunks/18a39-pa3h1p2.css","style"]
 :HL["https://api.fontshare.com/v2/css?f[]=satoshi@700,500,400&display=swap","style"]
 :HL["/images/me.jpg","image"]
 :HL["/images/linkedin.png","image"]
 :HL["/images/email.png","image"]
 :HL["/images/pdf.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"xFWwCT8BA1AFbFjxWiY8j"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"7Zn-69yyFK76xaJlI2VO-"}
