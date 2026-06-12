@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && node -e \"require('fs').writeFileSync('docs/.nojekyll', '')\"",
+    "build": "next build && node -e \"const fs=require('fs'); fs.writeFileSync('docs/.nojekyll', ''); fs.writeFileSync('docs/CNAME', 'alejandrocr.co')\"",
     "start": "next start",
     "lint": "eslint"
   },
