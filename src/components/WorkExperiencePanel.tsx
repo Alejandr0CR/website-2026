@@ -2,65 +2,75 @@ import { WorkExperienceItem } from './WorkExperienceItem'
 
 const WORK_EXPERIENCE = [
   {
-    id: 'work-1-title',
-    period: 'Jan 2025 — Present',
+    id: 'work-7',
+    period: 'Mar 2026 — Present',
+    title: 'Data Driven Software Engineer',
+    company: 'Allup Teky',
+    items: [
+      'Owned the full design, implementation, and deployment of a personal finance PWA using Ionic, React, Vercel, and Supabase, helping users track weekly financial milestones and update their monthly financial health score.',
+      'Improved users\' financial goal tracking by building data extraction, structuring, and analysis flows that calculated weekly progress, identified improvement areas, and generated recommended actions.',
+      'Built a financial analysis and recommendation engine by selecting relevant financial data, structuring it into analysis-ready flows, and translating user progress into actionable financial insights.'
+    ]
+  },
+  {
+    id: 'work-6',
+    period: 'Jan 2025 — Feb 2026',
     title: 'AI Engineer',
     company: 'Allup Teky',
     items: [
-      'Designed and delivered AI-enabled product features end to end.',
-      'Created conversational systems, new models by training, analytical workflows, and RPA/IPA automations.',
-      "Developed and maintained the web layer of the company's product.",
-      'Supported and scaled the AWS infrastructure for AI to meet evolving product feature requirements.',
-      'Translated product requirements into scalable capabilities and measurable outcomes.',
-    ],
+      'Reduced the time required to access operational information and generate reports by building LLM-powered assistants with LangChain, LangGraph, FAISS-based RAG, Ollama, AWS Bedrock, and relational databases.',
+      'Automated support and analysis workflows for field technicians and back-office administrators by enabling database retrieval, document retrieval, contextualized answers, failure-cause analysis, and custom report generation.',
+      'Integrated AI capabilities into the web product, including conversational assistants, document and database retrieval, and AI-powered report generation and analysis.',
+      'Trained a computer vision model with YOLOv8 and PyTorch to detect warehouse operational risks, including misplaced items, blocked zones, unsafe conditions, and visual compliance issues.',
+      'Scaled AWS infrastructure with AWS Bedrock, ECS, RDS, EC2, CloudWatch, and ALB to deploy and operate AI features, backend services, routing layers, databases, and production monitoring.',
+      'Automated repetitive analysis, validation, and information-processing tasks through RPA/IPA workflows that contributed to business intelligence and reduced manual work.'
+    ]
   },
   {
-    id: 'work-2-title',
+    id: 'work-5',
     period: 'Apr 2024 — Dec 2024',
     title: 'Programs Coordinator and Tech Director',
     company: 'HRBC Foundation',
     items: [
-      "Designed and implemented the organization's end-to-end technology ecosystem.",
-      'Defined, developed, and deployed core services on AWS.',
-      'Led cross-functional teams ensuring alignment of different contexts and workflows.',
-      'Established engineering standards, operating procedures, and technical documentation.',
-    ],
+      'Centralized program operations by implementing web services, AWS infrastructure, operational documentation, internal workflows, and coordination tools that helped the foundation run programs through defined processes and connected services.',
+      'Led multidisciplinary teams across program, product, and technology to define needs, prioritize deliverables, coordinate implementation, and ensure quality assurance across digital services and operational workflows.',
+      'Established technical documentation, operating procedures, and delivery standards to improve team communication and support effective product development across program, product, and technology workflows.'
+    ]
   },
   {
-    id: 'work-3-title',
+    id: 'work-4',
     period: 'Feb 2022 — Mar 2024',
     title: 'Engineering Team Leader',
     company: 'Deltec',
     items: [
-      'Directed automation initiatives and feature development for core products.',
-      'Designed and implemented a geolocation and asset-tracking system.',
-      'Automated version control workflows and CI-based testing processes.',
-      'Coordinated release activities and executed production deployments.',
-      'Defined documentation standards and ensured consistent adoption across teams.',
-    ],
+      'Standardized development, testing, deployment, server documentation, versioning, and requirements processes by creating team-wide scripts and technical documentation standards, reducing operational errors and improving delivery continuity.',
+      'Improved field asset tracking and operational control by building a geolocation system with OpenStreetMap and Mapbox that allowed teams to locate assets, review their field status, and support decision-making.',
+      'Coordinated production releases for completed milestones by aligning development, testing, versioning, documentation, and deployment workflows.',
+      'Improved engineering execution by systematizing delivery practices across development workflows, CI-based testing, technical documentation, and production deployment processes.'
+    ]
   },
   {
-    id: 'work-4-title',
+    id: 'work-3',
     period: 'Oct 2020 — Jan 2022',
     title: 'Software and Innovation Team Leader',
     company: 'Eventech',
     items: [
-      'Led UX-driven product development with an emphasis on usability and maintainability.',
-      'Developed a reusable core codebase and shared component libraries.',
-      'Managed infrastructure operations and executed platform migrations with minimal downtime.',
-      'Designed and delivered reporting systems to support business decision-making.',
-    ],
+      'Improved product usability and maintainability by leading UX-driven development and translating user needs into interfaces, reusable components, and consistent product flows.',
+      'Increased development consistency by creating a reusable core codebase and shared component libraries for web product delivery.',
+      'Supported platform continuity by managing infrastructure operations and migrations while reducing disruption to active services.',
+      'Improved business visibility by building reporting systems that transformed operational data into decision-support information.'
+    ]
   },
   {
-    id: 'work-5-title',
+    id: 'work-2',
     period: 'Oct 2019 — Feb 2020',
     title: 'Software Analyst and Developer',
     company: 'Jikkosoft',
     items: [
-      'Developed tax-calculation algorithms aligned with regulatory requirements.',
-      'Designed and implemented public services billing and invoicing systems with robust validations.',
-    ],
-  },
+      'Improved tax-calculation reliability by developing algorithms aligned with regulatory requirements and validation rules.',
+      'Built billing and invoicing systems for public-services operations by implementing calculation logic, validation flows, and transaction-oriented software components.'
+    ]
+  }
 ]
 
 export function WorkExperiencePanel() {
