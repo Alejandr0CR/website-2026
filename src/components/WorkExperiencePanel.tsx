@@ -8,7 +8,7 @@ const WORK_EXPERIENCE = [
     company: 'Allup Teky',
     items: [
       'Owned the full design, implementation, and deployment of a personal finance PWA using Ionic, React, Vercel, and Supabase, helping users track weekly financial milestones and update their monthly financial health score.',
-      'Improved users\' financial goal tracking by building data extraction, structuring, and analysis flows that calculated weekly progress, identified improvement areas, and generated recommended actions.',
+      'Improved users\' financial goal tracking by building data extraction, structuring, and analysis workflows that calculated weekly progress, identified areas for improvement, and generated recommended actions.',
       'Built a financial analysis and recommendation engine by selecting relevant financial data, structuring it into analysis-ready flows, and translating user progress into actionable financial insights.'
     ]
   },
@@ -46,7 +46,7 @@ const WORK_EXPERIENCE = [
       'Standardized development, testing, deployment, server documentation, versioning, and requirements processes by creating team-wide scripts and technical documentation standards, reducing operational errors and improving delivery continuity.',
       'Improved field asset tracking and operational control by building a geolocation system with OpenStreetMap and Mapbox that allowed teams to locate assets, review their field status, and support decision-making.',
       'Coordinated production releases for completed milestones by aligning development, testing, versioning, documentation, and deployment workflows.',
-      'Improved engineering execution by systematizing delivery practices across development workflows, CI-based testing, technical documentation, and production deployment processes.'
+      'Improved engineering execution by systematizing delivery practices across development workflows, CI-based testing, technical documentation, and production deployment.'
     ]
   },
   {
