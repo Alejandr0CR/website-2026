@@ -1,3 +1,3 @@
 :HL["/_next/static/chunks/11wi~_8h93srn.css","style"]
 :HL["https://api.fontshare.com/v2/css?f[]=satoshi@700,500,400&display=swap","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"G8RANgTHleZBhJYoEJ7f3"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"l9YpftVJ1d5oj2lDgOkM5"}
