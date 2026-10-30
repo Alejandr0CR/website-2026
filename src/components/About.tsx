@@ -7,9 +7,9 @@ export function About() {
   const [showMore, setShowMore] = useState(false)
 
   return (
-    <section className="mt-8 lg:mt-12">
-      <SectionTitle label="About" dot1Color="fill-violet-300" dot2Color="fill-pink-300" />
-      <p className={`mt-2 text-lg/7 text-slate-700 ${!showMore ? 'lg:line-clamp-4' : ''}`}>
+    <section className="mt-4">
+      <SectionTitle label="About" dot1Color="fill-arcane" dot2Color="fill-flow" />
+      <p className={`mt-2 text-lg/7 text-ink ${!showMore ? 'lg:line-clamp-4' : ''}`}>
         <b>
           Engineer with experience in software + AI-based solutions
           development and technology team leadership.
@@ -24,7 +24,7 @@ export function About() {
       <button
         type="button"
         onClick={() => setShowMore((v) => !v)}
-        className="mt-2 hidden cursor-pointer text-sm/6 font-bold text-pink-500 hover:text-pink-700 active:text-pink-900 lg:inline-block"
+        className="mt-2 hidden cursor-pointer text-sm/6 font-bold text-arcane hover:text-flow active:text-arcane lg:inline-block"
       >
         {showMore ? 'Show less' : 'Show more'}
       </button>

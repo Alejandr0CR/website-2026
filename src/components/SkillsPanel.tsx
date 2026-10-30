@@ -1,3 +1,6 @@
+'use client'
+
+import { useState } from 'react'
 import { SkillSection } from './SkillSection'
 
 const SKILLS = [
@@ -92,18 +95,59 @@ const SKILLS = [
 ]
 
 export function SkillsPanel() {
+  const [query, setQuery] = useState('')
+  const q = query.trim().toLowerCase()
+
+  const totalMatches = q
+    ? SKILLS.reduce(
+        (acc, s) => acc + s.items.filter((i) => i.toLowerCase().includes(q)).length,
+        0,
+      )
+    : 0
+
   return (
     <div role="tabpanel">
-      <div className="sm:mt-4 lg:mt-8">
+      <div className="sm:mt-4 lg:mt-8 lg:border-t lg:border-edge">
         <div className="lg:px-8">
-          <div className="w-full">
-            <div className="mx-auto px-4 sm:px-6 md:max-w-3xl md:px-4 lg:px-0">
-              <div className="grid gap-8 sm:grid-cols-2 py-10 sm:py-12">
-                {SKILLS.map((skill) => (
-                  <SkillSection key={skill.title} title={skill.title} items={skill.items} />
-                ))}
+          <div className="mx-auto px-4 sm:px-6 md:max-w-3xl md:px-4 lg:px-0 pt-10 pb-12 sm:pt-12">
+
+            {/* Search — adapted from example.html .search-shell */}
+            <label className="mb-6 flex h-14 w-full cursor-text items-center gap-4 border border-edge bg-canvas/80 px-5 text-science transition-colors duration-150 focus-within:border-science">
+              <svg
+                className="h-5 w-5 flex-none"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.65"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                viewBox="0 0 20 20"
+                aria-hidden="true"
+              >
+                <circle cx="8.5" cy="8.5" r="5.5" />
+                <line x1="13" y1="13" x2="17" y2="17" />
+              </svg>
+              <input
+                type="search"
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                placeholder="Search skills…"
+                className="min-w-0 flex-1 border-0 bg-transparent font-sans text-sm text-ink outline-none placeholder:text-muted/60"
+              />
+              <span className="font-mono text-[10px] text-edge-mid" aria-live="polite">
+                {q ? `${totalMatches} match${totalMatches !== 1 ? 'es' : ''}` : 'SEARCH'}
+              </span>
+            </label>
+
+            <div className="grid gap-3 sm:grid-cols-2">
+              <SkillSection {...SKILLS[0]} query={query} />
+              <SkillSection {...SKILLS[1]} query={query} />
+              <SkillSection {...SKILLS[2]} query={query} />
+              <SkillSection {...SKILLS[3]} query={query} />
+              <div className="sm:col-span-2">
+                <SkillSection {...SKILLS[4]} query={query} />
               </div>
             </div>
+
           </div>
         </div>
       </div>

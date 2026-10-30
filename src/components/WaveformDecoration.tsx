@@ -16,9 +16,9 @@ export function WaveformDecoration() {
           <stop offset="100%" stopColor="black" />
         </linearGradient>
         <linearGradient id="gradient">
-          <stop offset="0%" stopColor="#4989E8" />
-          <stop offset="50%" stopColor="#6159DA" />
-          <stop offset="100%" stopColor="#FF54AD" />
+          <stop offset="0%" stopColor="#A78BFA" />
+          <stop offset="48%" stopColor="#D78AF4" />
+          <stop offset="100%" stopColor="#58C8F6" />
         </linearGradient>
         <mask id="mask">
           <rect width="100%" height="100%" fill="url(#pattern)" />
@@ -29,7 +29,7 @@ export function WaveformDecoration() {
           ))}
         </pattern>
       </defs>
-      <rect width="100%" height="100%" fill="url(#gradient)" mask="url(#mask)" opacity="0.25" />
+      <rect width="100%" height="100%" fill="url(#gradient)" mask="url(#mask)" opacity="0.4" />
     </svg>
   )
 }

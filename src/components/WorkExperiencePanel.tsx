@@ -1,3 +1,4 @@
+import { SectionDivider } from './SectionDivider'
 import { WorkExperienceItem } from './WorkExperienceItem'
 
 const WORK_EXPERIENCE = [
@@ -76,9 +77,12 @@ const WORK_EXPERIENCE = [
 export function WorkExperiencePanel() {
   return (
     <div role="tabpanel">
-      <div className="divide-y divide-slate-100 sm:mt-4 lg:mt-8 lg:border-t lg:border-slate-100">
-        {WORK_EXPERIENCE.map((job) => (
-          <WorkExperienceItem key={job.id} {...job} />
+      <div className="sm:mt-4 lg:mt-8 lg:border-t lg:border-edge">
+        {WORK_EXPERIENCE.map((job, i) => (
+          <div key={job.id}>
+            {i > 0 && <SectionDivider />}
+            <WorkExperienceItem {...job} />
+          </div>
         ))}
       </div>
     </div>

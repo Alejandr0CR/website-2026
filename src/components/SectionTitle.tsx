@@ -6,7 +6,7 @@ type Props = {
 
 export function SectionTitle({ label, dot1Color, dot2Color }: Props) {
   return (
-    <h2 className="flex items-center justify-center font-mono text-sm/7 font-medium text-slate-900 select-none lg:justify-start">
+    <h2 className="flex items-center justify-center font-mono text-sm/7 font-medium text-muted select-none lg:justify-start">
       <svg aria-hidden="true" viewBox="0 0 10 10" className="h-2.5 w-2.5">
         <path
           d="M0 5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V5Z"

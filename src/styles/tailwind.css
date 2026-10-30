@@ -3,14 +3,33 @@
 @plugin '@tailwindcss/typography';
 
 @theme {
+  /* Typography — Tecnoarcana identity */
+  --font-display: 'Fraunces', Georgia, serif;
   --font-sans:
-    Satoshi, ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'IBM Plex Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
     'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --font-mono:
+    'IBM Plex Mono', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo,
+    Consolas, 'DejaVu Sans Mono', monospace;
 
-  --color-scrollbar-track: #f1f5f9; /* slate-100 */
-  --color-scrollbar-thumb: #cbd5e1; /* slate-300 */
-  --color-scrollbar-thumb-hover: #ec4899; /* pink-500 */
-  --color-scrollbar-thumb-active: #a21caf; /* fuchsia-800 */
+  /* Semantic dark tokens */
+  --color-canvas: #080C18;
+  --color-panel: #121A2B;
+  --color-raised: #1D2940;
+  --color-ink: #F4F1E9;
+  --color-muted: #BCC8D8;
+  --color-arcane: #A78BFA;
+  --color-flow: #D78AF4;
+  --color-power: #E8BE7B;
+  --color-science: #58C8F6;
+  --color-edge: #394761;
+  --color-edge-mid: #7C8BA4;
+
+  /* Scrollbar */
+  --color-scrollbar-track: #121A2B;
+  --color-scrollbar-thumb: #394761;
+  --color-scrollbar-thumb-hover: #A78BFA;
+  --color-scrollbar-thumb-active: #7049C8;
 }
 
 @layer base {

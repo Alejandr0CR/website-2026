@@ -3,11 +3,12 @@ import { SectionTitle } from './SectionTitle'
 export function Contact() {
   return (
     <section className="mt-10 lg:mt-12">
-      <SectionTitle label="Contact" dot1Color="fill-indigo-300" dot2Color="fill-blue-300" />
-      <div className="h-px bg-linear-to-r from-slate-200/0 via-slate-200 to-slate-200/0 lg:hidden" />
+      <SectionTitle label="Contact" dot1Color="fill-science" dot2Color="fill-arcane" />
+      <div className="h-px bg-linear-to-r from-edge/0 via-edge to-edge/0 lg:hidden" />
+      <div className="flex justify-center lg:block">
       <ul
         role="list"
-        className="mt-4 flex flex-col items-center justify-center gap-4 text-base/7 font-medium text-slate-700 lg:items-start lg:gap-4"
+        className="mt-4 flex flex-col items-start gap-4 text-base/7 font-medium text-ink"
       >
         <li className="flex">
           <a
@@ -17,8 +18,10 @@ export function Contact() {
             rel="noopener noreferrer"
             href="https://linkedin.com/in/alejandro-carrasco-web-ai-engineer"
           >
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/images/linkedin.png" alt="LinkedIn" width={32} height={32} className="object-contain" />
+            <span className="flex h-10 w-10 flex-none items-center justify-center rounded-full bg-ink/90">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/images/linkedin.png" alt="LinkedIn" width={26} height={26} className="object-contain" />
+            </span>
             <span className="ml-3">Alejandro CR</span>
           </a>
         </li>
@@ -30,8 +33,10 @@ export function Contact() {
             rel="noopener noreferrer"
             href="mailto:contacto@alejandrocr.co"
           >
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/images/email.png" alt="Email" width={32} height={32} className="object-contain" />
+            <span className="flex h-10 w-10 flex-none items-center justify-center rounded-full bg-ink/90">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/images/email.png" alt="Email" width={26} height={26} className="object-contain" />
+            </span>
             <span className="ml-3">contacto@alejandrocr.co</span>
           </a>
         </li>
@@ -43,12 +48,15 @@ export function Contact() {
             rel="noopener noreferrer"
             href="/docs/cv__alejandrocr.co__1144198288.pdf"
           >
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/images/pdf.png" alt="PDF" width={32} height={32} className="object-contain" />
+            <span className="flex h-10 w-10 flex-none items-center justify-center rounded-full bg-ink/90">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/images/pdf.png" alt="PDF" width={26} height={26} className="object-contain" />
+            </span>
             <span className="ml-3">Download CV</span>
           </a>
         </li>
       </ul>
+      </div>
     </section>
   )
 }
