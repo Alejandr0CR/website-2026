@@ -4,4 +4,4 @@ const nextConfig = {
   distDir: 'docs',
 }
 
-module.exports = nextConfig
+export default nextConfig
