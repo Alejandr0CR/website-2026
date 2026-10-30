@@ -1,6 +1,6 @@
-import { About } from './About'
-import { Contact } from './Contact'
-import { Languages } from './Languages'
+import { About } from './About.tsx'
+import { Contact } from './Contact.tsx'
+import { Languages } from './Languages.tsx'
 
 export function Sidebar() {
   return (
